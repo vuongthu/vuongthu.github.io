@@ -7,22 +7,22 @@ body {
 
 a {
     text-decoration: none;
+    color: #4E878C;
 }
 
 .nav-container a {
     font-family: 'Lato', sans-serif;
     font-weight:bold;
-    color: #535960;
     padding: 1em;
     font-size: 1.5em;
 }
 
 a:hover {
-    color: #DC7633;
+    color: #95A5A6;
 }
 
-.nav-container a:active {
-    color: #DC7633;
+a:active {
+    color: #95A5A6;
 }
 
 .nav-container {
@@ -32,10 +32,16 @@ a:hover {
     margin-bottom: -20px;
 }
 
+#name {
+    font-family: 'Yeseva One', cursive;
+    font-size: 84pt;
+    text-align: center;
+}
+
 footer {
     background-color: #F2F2F2;
     padding-top: 30px;
-    margin-top: 4vh;
+    margin-top: 2vh;
     width: 100%;
 }
 
@@ -65,4 +71,17 @@ footer {
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 40px;
+}
+
+::selection {
+    background-color: #4E878C;
+    color: white;
+}
+
+.scroll-top {
+    font-family: 'Arsenal', sans-serif;
+    text-transform: lowercase;
+    font-size: 13pt;
+    text-align: right;
+    margin-right: 2%;
 }

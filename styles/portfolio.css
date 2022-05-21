@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Lato&family=Playfair+Display:wght@600&family=Roboto:wght@100;300;500&family=Yeseva+One&display=swap');
 
 main {
-    width: 40vw;
     margin: auto;
+    width: 40vw;
 }
 
-#name {
-    font-family: 'Yeseva One', cursive;
-    font-size: 84pt;
-    text-align: center;
-}
-
-.project-details  img {
+.project-details img {
     display: block;
     width: 30vw;
     height: auto;
@@ -39,7 +33,6 @@ main {
 
 a {
     font-family: 'Arsenal', sans-serif;
-    color: #535960;
     font-size: 1.4vh;
 }
 
