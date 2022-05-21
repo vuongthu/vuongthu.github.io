@@ -41,9 +41,13 @@ h3 {
     word-spacing: 0.6em;
 }
 
+
 #contact {
     font-size: 11pt;
-    word-spacing: 0.6em;
+}
+
+#contact span {
+    margin-right: 0.6em;
 }
 
 .info-container {
